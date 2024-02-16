@@ -19,7 +19,7 @@ app.use((req, res, next) => {
        );
 
 app.use((error, req, res, next) => {
-  res.send({ message: error.message, data: null, success: false });
+  res.send({ message: error.message, data: null, success : false });
 });
 
 app.listen(4000, () => {
