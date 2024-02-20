@@ -9,7 +9,7 @@ const formController = new FormController();
 app.get("/", (req, res, next) => {
   res.send({
     message: "Server Running on http://localhost:4000",
-    success: true,
+    success:true,
     data: null,
   });
 });
